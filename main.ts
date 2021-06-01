@@ -7,6 +7,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
+    Arm = 0
 })
 let Roll = 0
 let Pitch = 0
